@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>CarRefueling.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {color: #969696; font-family: Monospaced; font-weight: bold}
+.ST1 {font-family: Monospaced; font-weight: bold}
+.comment {color: #969696}
+.ST2 {color: #009900}
+.ST3 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST4 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">CarRefueling.java</td></tr></table>
+<pre>
+<span class="literal">package</span> kissjgabor20190319;
+
+<span class="comment">/**</span>
+<span class="comment"> *</span>
+<span class="comment"> * </span><span class="ST0">@author</span> <span class="comment">KjG</span>
+ <span class="comment">*/</span>
+<span class="literal">public</span> <span class="literal">class</span> <span class="ST1">CarRefueling</span> {
+
+    <span class="literal">private</span> String <span class="ST2">year</span>, <span class="ST2">id</span>;
+    <span class="literal">private</span> <span class="literal">double</span> <span class="ST2">range</span>, <span class="ST2">quantity</span>, <span class="ST2">price</span>, <span class="ST2">unitPrice</span>, <span class="ST2">fuelAt100</span>;
+
+    <span class="literal">private</span> <span class="literal">double</span> <span class="ST1">countUnitPrice</span>() {
+        <span class="literal">double</span> uPrice = <span class="literal">this</span>.<span class="ST2">price</span> / <span class="literal">this</span>.<span class="ST2">quantity</span>;
+        <span class="literal">return</span> Math.<span class="ST3">round</span>(uPrice * 100) / 100.0;
+    }
+
+    <span class="literal">private</span> <span class="literal">double</span> <span class="ST1">countFuelAt100</span>() {
+        <span class="literal">double</span> fAt100 = 100 * <span class="literal">this</span>.<span class="ST2">quantity</span> / <span class="literal">this</span>.<span class="ST2">range</span>;
+        <span class="literal">return</span> Math.<span class="ST3">round</span>(fAt100 * 100) / 100.0;
+    }
+
+    <span class="literal">public</span> <span class="ST1">CarRefueling</span>(String sor) {
+        sor = sor.replace(<span class="string">&#39;</span><span class="string">,</span><span class="string">&#39;</span>, <span class="string">&#39;</span><span class="string">.</span><span class="string">&#39;</span>);
+        String[] t = sor.split(<span class="string">&quot;</span><span class="ST4">\\</span><span class="string">s*</span><span class="ST4">\t</span><span class="ST4">\\</span><span class="string">s*</span><span class="string">&quot;</span>);
+        <span class="literal">this</span>.<span class="ST2">year</span> = t[0];
+        <span class="literal">this</span>.<span class="ST2">range</span> = Double.<span class="ST3">parseDouble</span>(t[1]);
+        <span class="literal">this</span>.<span class="ST2">quantity</span> = Double.<span class="ST3">parseDouble</span>(t[2]);
+        <span class="literal">this</span>.<span class="ST2">price</span> = Double.<span class="ST3">parseDouble</span>(t[3]);
+        <span class="literal">this</span>.<span class="ST2">id</span> = t[4];
+        <span class="literal">this</span>.<span class="ST2">unitPrice</span> = countUnitPrice();
+        <span class="literal">this</span>.<span class="ST2">fuelAt100</span> = countFuelAt100();
+    }
+
+    <span class="literal">public</span> String <span class="ST1">getYear</span>() {
+        <span class="literal">return</span> <span class="ST2">year</span>;
+    }
+
+    <span class="literal">public</span> String <span class="ST1">getId</span>() {
+        <span class="literal">return</span> <span class="ST2">id</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getRange</span>() {
+        <span class="literal">return</span> <span class="ST2">range</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getQuantity</span>() {
+        <span class="literal">return</span> <span class="ST2">quantity</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getPrice</span>() {
+        <span class="literal">return</span> <span class="ST2">price</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getUnitPrice</span>() {
+        <span class="literal">return</span> <span class="ST2">unitPrice</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getFuelAt100</span>() {
+        <span class="literal">return</span> <span class="ST2">fuelAt100</span>;
+    }
+
+}
+
+</pre></body>
+</html>
