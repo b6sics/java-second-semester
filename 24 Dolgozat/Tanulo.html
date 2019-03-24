@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Tanulo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {font-family: Monospaced; font-weight: bold}
+.comment {color: #969696}
+.ST1 {color: #009900}
+.ST3 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST2 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">G:\aB6sicsGIT\java-second-semester\24 Dolgozat\src\kissjgabor13ed\Tanulo.java</td></tr></table>
+<pre>
+<span class="literal">package</span> kissjgabor13ed;
+
+<span class="comment">/**</span>
+<span class="comment"> *</span>
+<span class="comment"> * </span><span class="comment">KjG</span>
+ <span class="comment">*/</span>
+<span class="literal">public</span> <span class="literal">class</span> <span class="ST0">Tanulo</span> {
+
+    <span class="literal">private</span> String <span class="ST1">name</span>, <span class="ST1">osztaly</span>, <span class="ST1">napilap</span>;
+    <span class="literal">private</span> <span class="literal">int</span> <span class="ST1">szinhaz</span>, <span class="ST1">mozi</span>, <span class="ST1">oldalak</span>, <span class="ST1">pontok</span>;
+
+    <span class="literal">public</span> <span class="ST0">Tanulo</span>(String sor) {
+        String[] t = sor.split(<span class="string">&quot;</span><span class="ST2">\\</span><span class="string">s*</span><span class="ST2">\t</span><span class="ST2">\\</span><span class="string">s*</span><span class="string">&quot;</span>);
+        <span class="literal">this</span>.<span class="ST1">name</span> = t[0];
+        <span class="literal">this</span>.<span class="ST1">osztaly</span> = t[1];
+        <span class="literal">this</span>.<span class="ST1">szinhaz</span> = Integer.<span class="ST3">parseInt</span>(t[2]);
+        <span class="literal">this</span>.<span class="ST1">mozi</span> = Integer.<span class="ST3">parseInt</span>(t[3]);
+        <span class="literal">this</span>.<span class="ST1">napilap</span> = t[4];
+        <span class="literal">this</span>.<span class="ST1">oldalak</span> = Integer.<span class="ST3">parseInt</span>(t[5]);
+        <span class="literal">this</span>.<span class="ST1">pontok</span> = <span class="literal">this</span>.<span class="ST1">szinhaz</span>*10 + <span class="literal">this</span>.<span class="ST1">mozi</span>*5 + <span class="literal">this</span>.<span class="ST1">oldalak</span>/10;
+    }
+
+    <span class="literal">public</span> <span class="literal">int</span> <span class="ST0">getPontok</span>() {
+        <span class="literal">return</span> <span class="ST1">pontok</span>;
+    }
+
+    <span class="literal">public</span> String <span class="ST0">getName</span>() {
+        <span class="literal">return</span> <span class="ST1">name</span>;
+    }
+
+    <span class="literal">public</span> String <span class="ST0">getOsztaly</span>() {
+        <span class="literal">return</span> <span class="ST1">osztaly</span>;
+    }
+
+    <span class="literal">public</span> String <span class="ST0">getNapilap</span>() {
+        <span class="literal">return</span> <span class="ST1">napilap</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">int</span> <span class="ST0">getSzinhaz</span>() {
+        <span class="literal">return</span> <span class="ST1">szinhaz</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">int</span> <span class="ST0">getMozi</span>() {
+        <span class="literal">return</span> <span class="ST1">mozi</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">int</span> <span class="ST0">getOldalak</span>() {
+        <span class="literal">return</span> <span class="ST1">oldalak</span>;
+    }
+
+}
+
+</pre></body>
+</html>

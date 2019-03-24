@@ -1,0 +1,47 @@
+run:
+1. A txt/forras.txt... beolvasva
+
+Albert Gyula
+Bán Béla
+Érsek Márta
+Hegedûs Zoltán
+Jakab Ágnes
+Káli Lajos
+Kósa Gyula
+Kozma Kálmán
+Lakatos Réka
+Madarász Emil
+Máté Margit
+Pál Beáta
+Pásztor Mihály
+Rózsa Róbert
+Sas Ignácz
+Simon Simon
+Szabó Mária
+Szûcs György
+Tatai Márk
+Tóbiás Krisztina
+Tóth János
+2. A txt/B.txt... kiírva
+
+3. napilap olvasók száma: 11 tanuló
+
+extra1
+A legtöbb könyvet olvasott: Csángó Pál
+
+extra2
+Könyvjutalmat kaptak: 
+Bán Béla
+Csángó Pál
+Dobó Ernõ
+Érsek Márta
+Jakab Ágnes
+Kocsis Judit
+Kovács Rita
+Madarász Emil
+Sas Ignácz
+Sós Miklós
+Varga István
+
+BUILD SUCCESSFUL (total time: 0 seconds)
+
