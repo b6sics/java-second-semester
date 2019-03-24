@@ -1,0 +1,27 @@
+run:
+*| STARTofJAVA 2019feb18 Obektumok |************************
+------------------------------------------------------------
+-| Új tanulo hozzáadása |-----------------------------------
+Név:       Kovács Éva 
+magasság: 168, testsúly 60, tti: 21,32 
+
+-| Új tanulo hozzáadása |-----------------------------------
+Név:     Kerekes Kati 
+magasság: 162, testsúly 62, tti: 24,13 
+
+-| Adat változtatása - testsúly |---------------------------
+Név:     Kerekes Kati 
+magasság: 162, testsúly 64, tti: 24,91 
+
+-| Adat változtatása - magasság |---------------------------
+Név:       Kovács Éva 
+magasság: 164, testsúly 60, tti: 22,65 
+
+-| Adatok változtatása |------------------------------------
+Név:     Kerekes Kati 
+magasság: 162, testsúly 59, tti: 22,96 
+
+------------------------------------------------------------
+*| ENDofJAVA   2019feb18 |**********************************
+BUILD SUCCESSFUL (total time: 0 seconds)
+
