@@ -1,0 +1,48 @@
+run:
+*| STARTofJAVA 2019feb25 StudentsTTI |**********************
+------------------------------------------------------------
+-| 1.  |----------------------------------------------------
+A txt/adatok.txt... beolvasva
+
+-| 2.  |----------------------------------------------------
+           Orosz Éva
+        Ördög Eszter
+         István Joli
+         Endrei Kata
+          Csaba Anna
+            Nagy Zoé
+           Arany Ági
+        Gyulai Panna
+          Jakab Irma
+        Balogh Emese
+           Hence Éva
+        Albert Kitti
+          Cilei Sára
+          Ázsok Ildi
+        Kajtos Enikõ
+        Kaszás Panni
+          Ujvári Éva
+          Zsobó Lili
+
+-| 3. A 1,70 m-nél magasabbak |-----------------------------
+        Ördög Eszter:  1,72 m
+         Fejes Adolf:  1,79 m
+         Endrei Kata:  1,76 m
+        Vidák Róbert:  1,72 m
+          Csaba Anna:  1,72 m
+            Nagy Zoé:  1,71 m
+          Sebes Feri:  1,71 m
+          Jakab Irma:  1,72 m
+           Rajna Pál:  1,78 m
+          Tisza Jenõ:  1,73 m
+          Cilei Sára:  1,76 m
+        Makács Nátán:  1,73 m
+           Ötvös Pál:  1,74 m
+        Kaszás Panni:  1,75 m
+           Zala Pali:  1,77 m
+-| 4. Az osztály átlagmagassága |---------------------------
+ 1,66 m.
+------------------------------------------------------------
+*| ENDofJAVA   2019feb25 |**********************************
+BUILD SUCCESSFUL (total time: 0 seconds)
+

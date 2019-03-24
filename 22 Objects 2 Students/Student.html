@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Student.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {color: #969696; font-family: Monospaced; font-weight: bold}
+.ST1 {font-family: Monospaced; font-weight: bold}
+.comment {color: #969696}
+.ST2 {color: #009900}
+.ST3 {font-family: Monospaced; font-weight: bold; font-style: italic}
+.ST4 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST5 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">G:\aB6sicsGIT\java-second-semester\22 Objects 2 Students\src\java20190225students\Student.java</td></tr></table>
+<pre>
+<span class="literal">package</span> java20190225students;
+
+<span class="comment">/**</span>
+<span class="comment"> *</span>
+<span class="comment"> * </span><span class="ST0">@KjG</span>
+ <span class="comment">*/</span>
+<span class="literal">public</span> <span class="literal">class</span> <span class="ST1">Student</span> {
+
+    <span class="literal">public</span> String <span class="ST1">getName</span>() {
+        <span class="literal">return</span> <span class="ST2">name</span>;
+    }
+
+    <span class="literal">public</span> String <span class="ST1">getGender</span>() {
+        <span class="literal">return</span> <span class="ST2">gender</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getHeight</span>() {
+        <span class="literal">return</span> <span class="ST2">height</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">double</span> <span class="ST1">getTti</span>() {
+        <span class="literal">return</span> <span class="ST2">tti</span>;
+    }
+
+    <span class="literal">public</span> <span class="literal">int</span> <span class="ST1">getKg</span>() {
+        <span class="literal">return</span> <span class="ST2">kg</span>;
+    }
+
+    <span class="literal">private</span> String <span class="ST2">name</span>, <span class="ST2">gender</span>;
+    <span class="literal">private</span> <span class="literal">double</span> <span class="ST2">height</span>, <span class="ST2">tti</span>;
+    <span class="literal">private</span> <span class="literal">int</span> <span class="ST2">kg</span>;
+
+    <span class="literal">private</span> <span class="literal">static</span> <span class="literal">double</span> <span class="ST3">tti</span>(<span class="literal">int</span> kg, <span class="literal">double</span> m) {
+        <span class="literal">return</span> Math.<span class="ST4">round</span>(100 * (1.3 * kg / (Math.<span class="ST4">pow</span>(m, 2.5)))) / 100.0;
+    }
+
+    <span class="literal">public</span> <span class="ST1">Student</span>(String sor) {
+        String[] t = sor.split(<span class="string">&quot;</span><span class="ST5">\\</span><span class="string">s*</span><span class="ST5">\t</span><span class="ST5">\\</span><span class="string">s*</span><span class="string">&quot;</span>);
+        <span class="literal">this</span>.<span class="ST2">name</span> = t[0];
+        <span class="literal">this</span>.<span class="ST2">gender</span> = t[1];
+        <span class="literal">this</span>.<span class="ST2">height</span> = Integer.<span class="ST4">parseInt</span>(t[2]) / 100.0;
+        <span class="literal">this</span>.<span class="ST2">kg</span> = Integer.<span class="ST4">parseInt</span>(t[3]);
+        <span class="literal">this</span>.<span class="ST2">tti</span> = <span class="ST4">tti</span>(<span class="literal">this</span>.<span class="ST2">kg</span>, <span class="literal">this</span>.<span class="ST2">height</span>);
+    }
+
+}
+
+</pre></body>
+</html>
