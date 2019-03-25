@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Java20190325.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {color: #969696; font-family: Monospaced; font-weight: bold}
+.ST1 {font-family: Monospaced; font-weight: bold}
+.comment {color: #969696}
+.ST3 {font-family: Monospaced; font-weight: bold; font-style: italic}
+.ST2 {color: #009900; font-family: Monospaced; font-style: italic}
+.ST5 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST4 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">G:\aB6sicsGIT\java-second-semester\27 Classes - more Constructor\src\java20190325\Java20190325.java</td></tr></table>
+<pre>
+<span class="literal">package</span> java20190325;
+
+<span class="literal">import</span> java.util.*;
+
+<span class="comment">/**</span>
+<span class="comment"> *</span>
+<span class="comment"> * </span><span class="ST0">@author</span> <span class="comment">KjG</span>
+ <span class="comment">*/</span>
+<span class="literal">public</span> <span class="literal">class</span> <span class="ST1">Java20190325</span> {
+
+    <span class="literal">private</span> <span class="literal">static</span> ArrayList&lt;Quadrat&gt; <span class="ST2">quadrats</span> = <span class="literal">new</span> ArrayList&lt;&gt;();
+
+    <span class="literal">private</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST3">f1</span>(String label) {
+        System.<span class="ST2">out</span>.println(label);
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">rectangle</span><span class="string">&quot;</span>, 10, 22));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">square</span><span class="string">&quot;</span>, 5));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">trapeze</span><span class="string">&quot;</span>, 3, 5, 4, 10, 22));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">deltoid</span><span class="string">&quot;</span>, 14, 6, 16, 14));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">trapeze</span><span class="string">&quot;</span>, 6, 13, 6, 8, 8));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">deltoid</span><span class="string">&quot;</span>, 7, 5, 9, 8));
+        <span class="ST2">quadrats</span>.add(<span class="literal">new</span> Quadrat(<span class="string">&quot;</span><span class="string">rectangle</span><span class="string">&quot;</span>, 9, 8));
+        System.<span class="ST2">out</span>.println(<span class="string">&quot;</span><span class="string">Kész!</span><span class="string">&quot;</span>);
+    }
+
+    <span class="literal">private</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST3">f2</span>(String label, String name) {
+        System.<span class="ST2">out</span>.println(label);
+        <span class="literal">for</span> (<span class="literal">int</span> ii = 0; ii &lt; <span class="ST2">quadrats</span>.size(); ii++) {
+            <span class="literal">if</span> (<span class="ST2">quadrats</span>.get(ii).getForm().equals(name)) {
+                String str = <span class="string">&quot;</span><span class="ST4">\t</span><span class="string">&quot;</span> + <span class="ST2">quadrats</span>.get(ii).getForm();
+                str += String.<span class="ST5">format</span>(<span class="string">&quot;</span><span class="string"> %8.2f cm2</span><span class="string">&quot;</span>, <span class="ST2">quadrats</span>.get(ii).getArea());
+                System.<span class="ST2">out</span>.println(str);
+            }
+        }
+        System.<span class="ST2">out</span>.println(<span class="string">&quot;&quot;</span>);
+    }
+
+    <span class="literal">private</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST3">f3</span>(String label) {
+        System.<span class="ST2">out</span>.println(label);
+        <span class="literal">double</span> sum = 0;
+        <span class="literal">int</span> x = 0;
+        <span class="literal">for</span> (<span class="literal">int</span> ii = 0; ii &lt; <span class="ST2">quadrats</span>.size(); ii++) {
+            sum += <span class="ST2">quadrats</span>.get(ii).getPerimeter();
+            x++;
+        }
+        String str = String.<span class="ST5">format</span>(<span class="string">&quot;</span><span class="ST4">\t</span><span class="string"> %25.20f cm</span><span class="string">&quot;</span>, sum / x);
+        System.<span class="ST2">out</span>.println(str);
+        str = String.<span class="ST5">format</span>(<span class="string">&quot;</span><span class="ST4">\t</span><span class="string"> %25.20f cm</span><span class="string">&quot;</span>, 100 * sum / x);
+        System.<span class="ST2">out</span>.println(str);
+        str = String.<span class="ST5">format</span>(<span class="string">&quot;</span><span class="ST4">\t</span><span class="string"> %25.20f cm</span><span class="string">&quot;</span>, 1.0 * ((<span class="literal">int</span>) (100 * sum / x)));
+        System.<span class="ST2">out</span>.println(str);
+        str = String.<span class="ST5">format</span>(<span class="string">&quot;</span><span class="ST4">\t</span><span class="string"> %25.20f cm</span><span class="string">&quot;</span>, ((<span class="literal">int</span>) (100 * sum / x)) / 100.0);
+        System.<span class="ST2">out</span>.println(str);
+    }
+
+    <span class="literal">public</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST3">main</span>(String[] args) {
+        <span class="ST5">f1</span>(<span class="string">&quot;</span><span class="string">Lista feltöltése...</span><span class="string">&quot;</span>);
+        <span class="ST5">f2</span>(<span class="string">&quot;</span><span class="string">Deltoid területek</span><span class="string">&quot;</span>, <span class="string">&quot;</span><span class="string">deltoid</span><span class="string">&quot;</span>);
+        <span class="ST5">f3</span>(<span class="string">&quot;</span><span class="string">Négyszögek kerületének átlaga: </span><span class="string">&quot;</span>);
+    }
+
+}
+
+</pre></body>
+</html>

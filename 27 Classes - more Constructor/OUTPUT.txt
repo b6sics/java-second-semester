@@ -1,0 +1,14 @@
+run:
+Lista feltöltése...
+Kész!
+Deltoid területek
+	deltoid   112,00 cm2
+	deltoid    36,00 cm2
+
+Négyszögek kerületének átlaga: 
+	   33,85714285714285400000 cm
+	 3385,71428571428600000000 cm
+	 3385,00000000000000000000 cm
+	   33,85000000000000000000 cm
+BUILD SUCCESSFUL (total time: 0 seconds)
+

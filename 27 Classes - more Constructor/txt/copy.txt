@@ -1,0 +1,5 @@
+ négyszögek.add(new Négyszög("trapéz",3, 5, 4, 10, 22)); //trapéz: a || b , m,  c, d 
+ négyszögek.add(new Négyszög("deltoid",14, 6, 16, 14)); //deltoid: a, b, e, f
+ négyszögek.add(new Négyszög("trapéz",6, 13, 6, 8, 8));  //trapéz: a || b , m,  c, d 
+ négyszögek.add(new Négyszög("deltoid",7, 5, 9, 8)); //deltoid: a, b, e, f
+ négyszögek.add(new Négyszög("téglalap",9, 8)); // téglalap: a<>b
