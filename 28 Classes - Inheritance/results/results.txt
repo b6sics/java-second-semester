@@ -1,0 +1,9 @@
+kerûlet: 20 cm
+terület: 25 cm2
+beírhetó kör területe: 12,6 cm2
+
+
+kerûlet: 30 cm
+terület: 50 cm2
+
+
