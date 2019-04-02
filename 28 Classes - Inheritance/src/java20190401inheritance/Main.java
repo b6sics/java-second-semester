@@ -28,10 +28,10 @@ public class Main {
         try {
             f = new RandomAccessFile(fileName, mode);
             f.seek(f.length());//a fájlmutatót a fájl végére mozgatja
-            str = str.replace("ő", String.valueOf((char) 245));
-            str = str.replace("Ő", String.valueOf((char) 213));
-            str = str.replace("ű", String.valueOf((char) 251));
-            str = str.replace("Ű", String.valueOf((char) 219));
+            str = str.replace("ő", "ö");
+            str = str.replace("Ő", "Ö");
+            str = str.replace("ű", "ü");
+            str = str.replace("Ű", "Ü");
             str = str.replace("²", "2");
             f.writeBytes(str + "\n");
             f.close();

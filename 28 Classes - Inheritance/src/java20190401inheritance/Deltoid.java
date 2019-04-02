@@ -6,12 +6,14 @@ package java20190401inheritance;
  */
 public class Deltoid extends Quadrat {
 
+    private final String NAME;
     private int a;
     private int b;
     private int e;
     private int f;
 
     public Deltoid(int a, int b, int e, int f) {
+        this.NAME = "DELTOID";
         this.a = a;
         this.b = b;
         this.e = e;
@@ -26,5 +28,10 @@ public class Deltoid extends Quadrat {
     @Override
     public int area() {
         return (e * f) / 2;
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 }

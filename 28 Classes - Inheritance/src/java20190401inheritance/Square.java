@@ -6,10 +6,12 @@ package java20190401inheritance;
  */
 public class Square extends Quadrat {
 
+    private final String NAME;
     private int a;
     private double circle;
 
     public Square(int a) {
+        this.NAME = "NÉGYZET";
         this.a = a;
         this.circle = (a / 2) * (a / 2) * 3.14;
     }
@@ -26,5 +28,10 @@ public class Square extends Quadrat {
     @Override
     public int area() {
         return a * a;
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 }

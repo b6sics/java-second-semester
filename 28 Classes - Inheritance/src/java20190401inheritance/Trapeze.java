@@ -6,6 +6,7 @@ package java20190401inheritance;
  */
 public class Trapeze extends Quadrat {
 
+    private final String NAME;
     private int a;
     private int b;
     private int c;
@@ -13,6 +14,7 @@ public class Trapeze extends Quadrat {
     private int m;
 
     public Trapeze(int a, int b, int c, int d, int m) {
+        this.NAME = "TRAPÉZ";
         this.a = a;
         this.b = b;
         this.c = c;
@@ -28,5 +30,10 @@ public class Trapeze extends Quadrat {
     @Override
     public int area() {
         return m * (a + c) / 2;
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 }

@@ -11,21 +11,16 @@ public class Printer {
     DecimalFormat df = new DecimalFormat("#.0");
 
     public String PrintPerimeterArea(Quadrat quadrat) {
-        String str = "kerűlet: " + quadrat.perimeter() + " cm"
+        String str = quadrat.getName() + ": \n"
+                + "kerület: " + quadrat.perimeter() + " cm"
                 + "\nterület: " + quadrat.area() + " cm²\n";
-
-        System.out.println("kerület: " + quadrat.perimeter() + " cm"
-                + "\nterület: " + quadrat.area() + " cm²");
         if (quadrat.getClass() == Square.class) {
-            str += "beírhetó kör területe: "
+            str += "a beírhetó kör területe: "
                     + df.format(((Square) quadrat).getCircle()) + " cm²\n\n";
-
-            System.out.println("beírhetó kör területe: "
-                    + df.format(((Square) quadrat).getCircle()) + " cm²\n");
         } else {
             str += "\n";
-            System.out.println("");
         }
+        System.out.println(str);
         return str;
     }
 }
