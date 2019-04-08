@@ -1,0 +1,30 @@
+run:
+Kiíratás 29 évesnél idősebb fák
+	0. 47 év Az örökzöldeknek minden évszakban vannak lévelei
+	0. 47 év Az örökzöldeknek minden évszakban vannak lévelei
+	2. 44 év Az örökzöldeknek minden évszakban vannak lévelei
+	2. 44 év Az örökzöldeknek minden évszakban vannak lévelei
+	4. 42 év Az örökzöldeknek minden évszakban vannak lévelei
+	4. 42 év Az örökzöldeknek minden évszakban vannak lévelei
+	6. 34 év Az örökzöldeknek minden évszakban vannak lévelei
+	6. 34 év Az örökzöldeknek minden évszakban vannak lévelei
+	8. 33 év Az örökzöldeknek minden évszakban vannak lévelei
+	8. 33 év Az örökzöldeknek minden évszakban vannak lévelei
+	9. 39 év Az örökzöldeknek minden évszakban vannak lévelei
+	9. 39 év Az örökzöldeknek minden évszakban vannak lévelei
+	10. 48 év Az örökzöldeknek minden évszakban vannak lévelei
+	10. 48 év Az örökzöldeknek minden évszakban vannak lévelei
+	11. 46 év Az örökzöldeknek minden évszakban vannak lévelei
+	11. 46 év Az örökzöldeknek minden évszakban vannak lévelei
+	13. 31 év Az örökzöldeknek minden évszakban vannak lévelei
+	13. 31 év Az örökzöldeknek minden évszakban vannak lévelei
+	19. 33 év A lombhullató fák ágai télen üresek.
+	19. 33 év A lombhullató fák ágai télen üresek.
+	23. 31 év A lombhullató fák ágai télen üresek.
+	23. 31 év A lombhullató fák ágai télen üresek.
+	26. 33 év A lombhullató fák ágai télen üresek.
+	26. 33 év A lombhullató fák ágai télen üresek.
+	27. 31 év A lombhullató fák ágai télen üresek.
+	27. 31 év A lombhullató fák ágai télen üresek.
+BUILD SUCCESSFUL (total time: 0 seconds)
+
