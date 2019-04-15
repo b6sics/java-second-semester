@@ -1,0 +1,95 @@
+run:
+Adatok betöltése ...
+ Spániel vagyok a nevem Picúr, vidám 4 éves vagyok, szőrzetem: hosszú selymes
+ Puli vagyok a nevem Uborka, terelek 2 éves vagyok, szőrzetem: null
+ Spániel vagyok a nevem Hurka, szeretetteljes 5 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Morzsi, félénk 4 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Sátán, terelek 10 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Elek, kitartó 10 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Bodri, terelek 10 éves vagyok, szőrzetem: null
+ Spániel vagyok a nevem Nyakas, társaságkedvelő 10 éves vagyok, szőrzetem: hosszú selymes
+ Puli vagyok a nevem Sátán, terelek 3 éves vagyok, szőrzetem: null
+ Puli vagyok a nevem Q, terelek 7 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Tomtom, elegáns 7 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Argosz, terelek 9 éves vagyok, szőrzetem: null
+ Puli vagyok a nevem Morzsi, terelek 10 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Picúr, kitartó 4 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Dugó, gyors 7 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Zorró, terelek 8 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Hurka, kitartó 2 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Rex, terelek 2 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Tomtom, kitartó 7 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Fickó, terelek 4 éves vagyok, szőrzetem: null
+ Puli vagyok a nevem Lajka, terelek 2 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Elek, kitartó 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Xavier, vidám 6 éves vagyok, szőrzetem: hosszú selymes
+ Spániel vagyok a nevem Zorró, embercentrikus 4 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Csutak, félénk 10 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Idétlen, elegáns 8 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Q, terelek 2 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Bodri, gyors 10 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Yukon, társaságkedvelő 5 éves vagyok, szőrzetem: hosszú selymes
+ Spániel vagyok a nevem Rex, szeretetteljes 3 éves vagyok, szőrzetem: hosszú selymes
+ Spániel vagyok a nevem Ordas, társaságkedvelő 10 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Zorró, elegáns 8 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Nyakas, gyors 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Jómadár, kitartó 4 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Picúr, félénk 9 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Sátán, hűséges 8 éves vagyok, szőrzetem: hosszú selymes
+ Puli vagyok a nevem Gyilkos, terelek 7 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Hurka, gyors 5 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Kántor, gyors 2 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Q, terelek 10 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Argosz, erős 3 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Fickó, társaságkedvelő 1 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Lajka, erős 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Q, félénk 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Yukon, terelek 6 éves vagyok, szőrzetem: null
+ Spániel vagyok a nevem Lajka, embercentrikus 1 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Csutak, erős 2 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Picúr, szeretetteljes 5 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Nyakas, elegáns 3 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Vendetta, gyors 7 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Gyilkos, embercentrikus 10 éves vagyok, szőrzetem: hosszú selymes
+ Spániel vagyok a nevem Dugó, társaságkedvelő 3 éves vagyok, szőrzetem: hosszú selymes
+ Puli vagyok a nevem Nyakas, terelek 6 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Idétlen, erős 10 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Idétlen, vidám 8 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Sátán, erős 3 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Lajka, félénk 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Bodri, vidám 1 éves vagyok, szőrzetem: hosszú selymes
+ Puli vagyok a nevem Jómadár, terelek 2 éves vagyok, szőrzetem: null
+ Spániel vagyok a nevem Idétlen, szeretetteljes 3 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Vendetta, elegáns 6 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Gyilkos, társaságkedvelő 3 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Ordas, erős 8 éves vagyok, szőrzetem: homokszínű és rövid
+ Agár vagyok a nevem Elek, gyors 8 éves vagyok, szőrzetem: homokszínű és rövid
+ Spániel vagyok a nevem Sátán, hűséges 7 éves vagyok, szőrzetem: hosszú selymes
+ Agár vagyok a nevem Dugó, kitartó 10 éves vagyok, szőrzetem: homokszínű és rövid
+ Puli vagyok a nevem Elek, terelek 9 éves vagyok, szőrzetem: null
+ Puli vagyok a nevem Uborka, terelek 6 éves vagyok, szőrzetem: null
+ Puli vagyok a nevem Hurka, terelek 2 éves vagyok, szőrzetem: null
+ Agár vagyok a nevem Zorró, elegáns 4 éves vagyok, szőrzetem: homokszínű és rövid
+
+Az 1 éves kutyák listája
+Spániel vagyok a nevem Fickó, társaságkedvelő 1 éves vagyok, szőrzetem: hosszú selymes
+Spániel vagyok a nevem Lajka, embercentrikus 1 éves vagyok, szőrzetem: hosszú selymes
+Spániel vagyok a nevem Bodri, vidám 1 éves vagyok, szőrzetem: hosszú selymes
+
+Az 5 évnél fiatalabb vidám kutyák listája
+Spániel vagyok a nevem Picúr, vidám 4 éves vagyok, szőrzetem: hosszú selymes
+Spániel vagyok a nevem Bodri, vidám 1 éves vagyok, szőrzetem: hosszú selymes
+
+Az 6 évnél idősebb pulik listája
+Puli vagyok a nevem Sátán, terelek 10 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Bodri, terelek 10 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Q, terelek 7 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Argosz, terelek 9 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Morzsi, terelek 10 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Zorró, terelek 8 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Gyilkos, terelek 7 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Q, terelek 10 éves vagyok, szőrzetem: null
+Puli vagyok a nevem Elek, terelek 9 éves vagyok, szőrzetem: null
+
+BUILD SUCCESSFUL (total time: 0 seconds)
+
