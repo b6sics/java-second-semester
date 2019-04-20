@@ -27,7 +27,7 @@ public class KissJGabi {
         System.out.println(label);
         for (String név : NEVEK) {
             int évfolyam = rnd(EVOLYAM_MAX, EVOLYAM_MIN);
-            String kedvencTantárgy = TANTARGYAK[rnd(0, TANTARGYAK.length - 1)];
+            String kedvencTantárgy = TANTARGYAK[rnd(TANTARGYAK.length - 1, 0)];
             FAKTORCSOPORT.add(new Faktos(név, évfolyam, kedvencTantárgy));
         }
         System.out.println("");
