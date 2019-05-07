@@ -1,0 +1,24 @@
+Horváth-Varga Géza	3	1	5
+Somogyi Dániel	1	1	5	1
+Szabó Benedek	2	3	2
+Gulácsi Boglárka	3	4	2
+Égetõ Benjámin	3	5	1	3	5
+Bereczki Ádám	1	1	3
+Berényi Zsolt	4	3	4	3	1
+Berta Ramón	3	2	4
+Török Bendegúz	3	1	3	5
+Fodor Tímea	1	2	1
+Tarján Dominik	4	3	3
+Kovács Tibor	3	2	2	2	2
+Galgóczki Norbert	3	5	2	2	3
+Varga Roland	3	1	3
+Imre Ádám	1	2	1
+Telek Petra	5	1	4	5
+Zsikai Ádám	1	2	5
+Rádai László	3	3	2	1	4
+Övös Bernadett	1	2	2	5	2
+Sárkány Violetta	5	2	3
+Szenti Erik	4	5	1
+Papdi Dominika	2	2	3	5
+Végh Róbert	3	1	4	2	3
+Takács Bence	2	3	5	2
